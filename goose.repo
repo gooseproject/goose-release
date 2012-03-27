@@ -1,0 +1,5 @@
+[base]
+Name=GoOSe Linux $releasever Alpha repository
+baseurl=http://koji.gooselinux.org/releases/sketchy/$releasever/Everything/$basearch/os/
+enabled=1
+gpgcheck=0
