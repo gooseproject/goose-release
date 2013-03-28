@@ -1,5 +1,7 @@
-[base]
-Name=GoOSe Linux $releasever Alpha repository
-baseurl=http://koji.gooselinux.org/releases/sketchy/$releasever/Everything/$basearch/os/
+[GoOSe]
+Name=GoOSe Linux $releasever repository
+#baseurl=http://koji.gooselinux.org/releases/$releasever/Everything/$basearch/os/
+mirrorlist=http://koji.gooselinux.org/pub/.mirrorlists/os-mirrorlist-$releasever-$basearch.txt
 enabled=1
-gpgcheck=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-GoOSe-6-release
