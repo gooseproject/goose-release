@@ -1,4 +1,4 @@
-[GoOSe Updates]
+[updates]
 Name=GoOSe Linux $releasever updates repository
 #baseurl=http://koji.gooselinux.org/pub/updates/6.0/x86_64/
 mirrorlist=http://koji.gooselinux.org/pub/.mirrorlists/updates-mirrorlist-$releasever-$basearch.txt
